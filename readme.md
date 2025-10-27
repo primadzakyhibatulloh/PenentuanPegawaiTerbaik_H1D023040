@@ -51,10 +51,15 @@ class Pegawai {
 Penjelasan:
 
 class Pegawai → mendefinisikan tipe data untuk menyimpan data tiap pegawai.
+
 String nama; → properti untuk menyimpan nama pegawai.
+
 Map<String, double> nilai = {}; → menyimpan pasangan kriteria: nilai (mis. "Disiplin": 85.0). Menggunakan Map agar jumlah kriteria bersifat dinamis sesuai bobot yang dipakai.
+
 double skorTotal = 0.0; → menyimpan hasil perhitungan akhir (nilai berbobot) — diisi saat pembuatan laporan.
+
 String kategori = ''; → menyimpan hasil kategorisasi (A–E / deskripsi).
+
 Pegawai(this.nama); → konstruktor singkat untuk membuat objek Pegawai dengan nama.
 
 
